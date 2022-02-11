@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title": "Wrist",
+        "year": "2021",
+        "description": "Reinventing the luxury experience of online shopping with expensive watches.",
+        "category": "Graphic design, Front-end, Website",
+        "image": "https://clever-snyder-541156.netlify.app/img/Wrist_mockup_mac.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Just Another Design Company",
+        "year": "2021",
+        "description": "An earlier portfolio, i used bright colors to engage the reader and make a statement.",
+        "category": "Graphic design, Front-end, Website",
+        "image": "https://clever-snyder-541156.netlify.app/img/JADC_mockup-all-devices.jpg"
+    },
+    {
+        "id": "3",
+        "title": "The Modern Apartment",
+        "year": "2021",
+        "description": "A modern and minimalistic furniture blog.",
+        "category": "Graphic design, Front-end, Website",
+        "image": "https://clever-snyder-541156.netlify.app/img/TMA_mockup_mac.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Still Tasty",
+        "year": "2020",
+        "description": "Expired food is Still Tasty, how can we reduce food waste by using this app",
+        "category": "Graphic design, app",
+        "image": "https://clever-snyder-541156.netlify.app/img/Still-Tasty_mockup_1.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Capasand",
+        "year": "2020",
+        "description": "A website for a clinic, their focus is to tave a healthy lifestyle.",
+        "category": "Graphic design, Web design, Website",
+        "image": "https://clever-snyder-541156.netlify.app/img/Capasand_mockup_mac.jpg"
+    }
+]
