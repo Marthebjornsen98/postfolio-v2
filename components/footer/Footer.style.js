@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const FooterContainer = styled.div`
   width: 85%;
@@ -48,4 +49,59 @@ export const FooterContainer = styled.div`
       font-weight: var(--semi-bold);
     }
   }
+
+  ${media.lessThan("991px")`
+
+  .chatContainer {
+    width: 50%;
+  }
+
+  .footerList {
+    margin-top: 20px;
+  }
+
+  .footerLinks {
+    width: 30%;
+    flex-direction: column;
+  }
+
+  .footerContainer {
+    margin-bottom: 50px;
+  }
+
+  .footerItem {
+    margin-top: 10px;
+`}
+
+  ${media.lessThan("medium")`
+
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .chatContainer {
+      width: 90%;
+    }
+    
+    .footerLinks {
+      margin-top: 70px;
+      width: 90%;
+      flex-direction: row;
+    }
+    `}
+
+    ${media.lessThan("small")`
+
+    .chatContainer {
+      width: 100%;
+    }
+
+    .footerLinks {
+      margin-top: 70px;
+      width: 100%;
+      flex-direction: column;
+    }
+  `}
 `;

@@ -1,12 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { generateMedia } from "styled-media-query";
-
-// const customMedia = generateMedia({
-//   xs: "500px",
-//   sm: "767px",
-//   md: "991",
-//   lg: "1100px",
-// });
+import media from "styled-media-query";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -47,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     h3 {
@@ -61,6 +54,77 @@ const GlobalStyle = createGlobalStyle`
     h5 {
         font-size: 1.5rem
     }
+
+    ${media.lessThan("large")`
+        h1 {
+            font-size: 5rem;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+        }
+    `}
+
+
+    ${media.lessThan("991px")`
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.25rem
+        }
+
+        h5 {
+            font-size: 1.125rem;
+        }
+    `}
+
+    ${media.lessThan("medium")`
+
+        h1 {
+            font-size: 4.125rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h5 {
+            font-size: 1.125rem;
+        }
+    `}
+
+    ${media.lessThan("small")`
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.125rem;
+    }
+`}
 
     p {
         font-size: 1rem;

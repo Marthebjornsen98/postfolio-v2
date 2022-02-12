@@ -1,13 +1,14 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const HeroContainer = styled.div`
   width: 85%;
   margin: auto;
-  margin-bottom: 600px;
 
   .heroContentContainer {
     margin: auto;
     padding-top: 200px;
+    margin-bottom: 600px;
   }
 
   .heroBgImgContainer {
@@ -26,4 +27,28 @@ export const HeroContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  ${media.lessThan("991px")`
+    .heroContentContainer {
+        margin-bottom: 450px;
+      }
+
+      .heroBgImgContainer {
+        width: 100%;
+      }
+      
+      .heroBgImg {
+        width: 77%;
+        height: 600px;
+      }
+  `}
+
+  ${media.lessThan("medium")`
+    width: 90%;
+
+    .heroBgImg {
+        width: 90%;
+        height: 500px;
+      }
+  `}
 `;

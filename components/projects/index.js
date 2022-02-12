@@ -8,12 +8,14 @@ const Projects = () => {
         {Data.map(({ id, title, year, description, category, image }) => (
           <div className="projectCard" key={id}>
             <div className="projectText">
-              <div className="projectNumbAndCategory">
-                <h3>{id}/5</h3>
-                <p>{category}</p>
-              </div>
-              <div className="projectTitle">
-                <h2>{title}</h2>
+              <div className="projectSplit">
+                <div className="projectNumbAndCategory">
+                  <h3>{id}/5</h3>
+                  <p>{category}</p>
+                </div>
+                <div className="projectTitle">
+                  <h2 className="title">{title}</h2>
+                </div>
               </div>
               <div className="projectYearAndDesc">
                 <h3>{year}</h3>

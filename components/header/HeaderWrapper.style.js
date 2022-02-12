@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const HeaderWrapper = styled.div`
   width: 100%;
@@ -48,4 +49,40 @@ export const HeaderWrapper = styled.div`
   .isActive {
     font-weight: var(--bold);
   }
+
+  ${media.lessThan("991px")`
+    .logoContainer {
+      width: 50%;
+    }
+
+    .logo {
+      font-size: 1rem;
+    }
+
+    .navElmContainer {
+      width: 50%;
+    }
+  `}
+
+  ${media.lessThan("medium")`
+    nav {
+      width: 90%;
+    }
+  `}
+
+  ${media.lessThan("small")`
+
+    nav {
+      height: 80px;
+    }
+
+    .logoContainer {
+        width: auto;
+      }
+
+    .navElmContainer {
+        width: 50%;
+        font-size: 0.875rem;
+      }
+  `}
 `;
