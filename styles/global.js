@@ -1,5 +1,12 @@
 import { createGlobalStyle } from "styled-components";
-// import media from "styled-media-query";
+import { generateMedia } from "styled-media-query";
+
+// const customMedia = generateMedia({
+//   xs: "500px",
+//   sm: "767px",
+//   md: "991",
+//   lg: "1100px",
+// });
 
 const GlobalStyle = createGlobalStyle`
 
@@ -8,22 +15,13 @@ const GlobalStyle = createGlobalStyle`
         --primary-color: #070707;
         --secondary-color: #FFFFFF;
 
-        // Secondary colors
-        --dark-blue: #3D616B;
-        --light-blue: #92CDD8;
-        --dark-pink: #CC859A;
-        --light-pink: #F3C4D3;
-        --dark-yellow: #D69A2D;
-        --light-yellow: #F4C673;
-
         //Weights
         --bold: 700;
         --semi-bold: 600;
 
         //Details
         --border-radius: 8px;
-        --blue-btn-border: solid 3px var(--dark-blue);
-        --black-btn-border: solid 3px var(--primary-color);
+        --white-btn-border: solid 2px var(--secondary-color);
     }
 
     * {
@@ -32,6 +30,10 @@ const GlobalStyle = createGlobalStyle`
         padding: 0px;
         text-decoration: none;
         list-style: none;
+    }
+
+    html {
+        scroll-behavior: smooth;
     }
 
     body {
@@ -62,6 +64,10 @@ const GlobalStyle = createGlobalStyle`
 
     p {
         font-size: 1rem;
+    }
+
+    a {
+        color: var(--secondary-color);
     }
 
     .next-line {

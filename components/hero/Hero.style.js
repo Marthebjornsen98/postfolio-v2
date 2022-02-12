@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  width: 100%;
+  width: 85%;
+  margin: auto;
   margin-bottom: 600px;
 
   .heroContentContainer {

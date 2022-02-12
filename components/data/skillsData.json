@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "title": "Design",
+      "skills": [
+        "Indesign",
+        "Illustrator",
+        "Photoshop",
+        "After Effects",
+        "Adobe XD",
+        "Figma"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Code",
+      "skills": [
+        "Visual Studio Code",
+        "Github",
+        "Photoshop",
+        "Terminal",
+        "ABootstrap"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Language",
+      "skills": [
+        "Norwegian",
+        "English",
+        "HTML",
+        "CSS",
+        "SASS",
+        "Javascript",
+        "Learning React"
+      ]
+    }
+  ]

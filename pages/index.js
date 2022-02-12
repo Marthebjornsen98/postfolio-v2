@@ -3,6 +3,8 @@ import Head from "next/head";
 import Header from "../components/header";
 import Hero from "../components/hero";
 import Projects from "../components/projects";
+import About from "../components/about";
+import Footer from "../components/footer";
 
 //Styles
 import { Body } from "../components/body/Body.style";
@@ -19,10 +21,11 @@ export default function Home() {
       <Body>
         <Header />
         <Main>
-          <Hero id="home" />
-          <Projects id="projects" />
+          <Hero />
+          <Projects />
+          <About />
         </Main>
-        <footer></footer>
+        <Footer />
       </Body>
     </>
   );

@@ -1,22 +1,32 @@
 import { HeaderWrapper } from "./HeaderWrapper.style";
-import { Link, animateScroll as scroll } from "react-scroll";
-
-const navElements = [
-  {
-    title: "Home",
-    link: "#home",
-  },
-  {
-    title: "Projects",
-    link: "/projects",
-  },
-  {
-    title: "About",
-    link: "#about",
-  },
-];
+import { animateScroll as scroll } from "react-scroll";
+import { useState } from "react";
 
 const Header = () => {
+  const navElements = [
+    {
+      id: "1",
+      title: "Home",
+      link: "#home",
+    },
+    {
+      id: "2",
+      title: "Projects",
+      link: "#projects",
+    },
+    {
+      id: "3",
+      title: "About",
+      link: "#about",
+    },
+  ];
+
+  const [isActive, setActive] = useState(false);
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
+
   return (
     <>
       <HeaderWrapper>
@@ -27,19 +37,12 @@ const Header = () => {
             </a>
           </div>
           <div className="navElmContainer">
-            <ul className="navElmWrapperr">
-              {navElements.map(({ title, link }) => (
-                <li key={title}>
-                  <Link
-                    className="navElm"
-                    activeClass="active"
-                    to={link}
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+            <ul className="navElmWrapper">
+              {navElements.map(({ id, title, link }) => (
+                <li key={id} onClick={handleToggle}>
+                  <a href={link} className={isActive ? "isActive" : "navElm"}>
                     {title}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

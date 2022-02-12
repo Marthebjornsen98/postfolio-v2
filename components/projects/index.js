@@ -4,7 +4,7 @@ import { ProjectContainer } from "./Projects.style";
 const Projects = () => {
   return (
     <>
-      <ProjectContainer>
+      <ProjectContainer id="projects">
         {Data.map(({ id, title, year, description, category, image }) => (
           <div className="projectCard" key={id}>
             <div className="projectText">

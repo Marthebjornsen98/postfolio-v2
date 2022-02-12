@@ -31,19 +31,21 @@ export const HeaderWrapper = styled.div`
     width: 25%;
   }
 
-  .navElmWrapperr {
+  .navElmWrapper {
     display: flex;
     justify-content: space-between;
   }
 
   .navElm {
-    .active {
-      font-weight: var(--bold);
-    }
+    font-weight: 500;
 
     &:hover {
       cursor: pointer;
       font-weight: var(--bold);
     }
+  }
+
+  .isActive {
+    font-weight: var(--bold);
   }
 `;

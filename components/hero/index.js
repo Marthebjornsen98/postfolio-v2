@@ -3,7 +3,7 @@ import { HeroContainer } from "./Hero.style";
 const Hero = () => {
   return (
     <>
-      <HeroContainer>
+      <HeroContainer id="home">
         <div className="heroContentContainer">
           <h1>
             Hi! Im Marthe,
