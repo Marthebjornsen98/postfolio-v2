@@ -95,6 +95,13 @@ export const ProjectContainer = styled.div`
     width: 90%;
   `}
 
+  ${media.lessThan("small")`
+    .projectImg {
+      width: 100%;
+      height: 500px;
+    }
+  `}
+
   ${media.lessThan("380px")`
   .title {
       font-size: 3rem;
