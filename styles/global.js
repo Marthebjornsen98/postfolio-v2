@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     * {
-        font-family: "Quicksand", Helvetica, Sans-serif;
+        font-family: 'Quicksand', Helvetica, Sans-serif;
         margin: 0px;
         padding: 0px;
         text-decoration: none;
