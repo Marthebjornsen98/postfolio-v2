@@ -28,11 +28,8 @@ export const HeaderWrapper = styled.div`
     color: var(--secondary-color);
   }
 
-  .navElmContainer {
-    width: 25%;
-  }
-
   .navElmWrapper {
+    width: 40%;
     display: flex;
     justify-content: space-between;
   }
@@ -59,7 +56,7 @@ export const HeaderWrapper = styled.div`
       font-size: 1rem;
     }
 
-    .navElmContainer {
+    .navElmWrapper {
       width: 50%;
     }
   `}
@@ -77,11 +74,11 @@ export const HeaderWrapper = styled.div`
     }
 
     .logoContainer {
-        width: auto;
+        width: 100px;
       }
 
-    .navElmContainer {
-        width: 50%;
+    .navElmWrapper {
+        width: 65%;
         font-size: 0.875rem;
       }
   `}

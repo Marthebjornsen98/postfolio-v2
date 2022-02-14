@@ -1,6 +1,5 @@
 import { HeaderWrapper } from "./HeaderWrapper.style";
 import { animateScroll as scroll } from "react-scroll";
-import { useState } from "react";
 
 const Header = () => {
   const navElements = [
@@ -20,13 +19,6 @@ const Header = () => {
       link: "#about",
     },
   ];
-
-  const [isActive, setActive] = useState(false);
-
-  const handleToggle = () => {
-    setActive(!isActive);
-  };
-
   return (
     <>
       <HeaderWrapper>
@@ -36,17 +28,15 @@ const Header = () => {
               Bjornsen Design
             </a>
           </div>
-          <div className="navElmContainer">
-            <ul className="navElmWrapper">
-              {navElements.map(({ id, title, link }) => (
-                <li key={id} onClick={handleToggle}>
-                  <a href={link} className={isActive ? "isActive" : "navElm"}>
-                    {title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <ul className="navElmWrapper">
+            {navElements.map(({ id, title, link }) => (
+              <li key={id}>
+                <a href={link} className="navElm">
+                  {title}
+                </a>
+              </li>
+            ))}
+          </ul>
         </nav>
       </HeaderWrapper>
     </>

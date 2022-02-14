@@ -2,7 +2,6 @@ import { createGlobalStyle } from "styled-components";
 import media from "styled-media-query";
 
 const GlobalStyle = createGlobalStyle`
-
     :root {
         //Primary colors:
         --primary-color: #070707;

@@ -51,4 +51,13 @@ export const HeroContainer = styled.div`
         height: 500px;
       }
   `}
+
+  ${media.lessThan("small")`
+    width: 90%;
+
+    .heroBgImg {
+        width: 100%;
+        height: 75vh;
+      }
+  `}
 `;
