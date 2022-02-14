@@ -13,7 +13,6 @@ const Hero = () => {
             <div
               className="heroBgImg"
               style={{ backgroundImage: `url(/img/hero-background_dark.jpg)` }}
-              alt="Mockup of iphones"
             />
           </div>
         </div>
