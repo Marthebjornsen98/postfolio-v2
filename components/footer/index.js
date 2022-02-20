@@ -15,7 +15,13 @@ const Footer = () => {
             Nisl aliquam dictum fames tempus pretium pharetra. Vestibulum nunc
             erat proin montes, habitant phasellus crasp retium pharetr.
           </p>
-          <div className="emailBtn">Email me</div>
+          {/* NOTE: https://css-tricks.com/snippets/html/mailto-links/ */}
+          <a
+            href="mailto:someone@yoursite.com?subject=Hi nice to meet you"
+            className="emailBtn"
+          >
+            Email me
+          </a>
         </div>
         <div className="footerLinks">
           <div className="footerContainer">

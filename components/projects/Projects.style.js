@@ -4,6 +4,7 @@ import media from "styled-media-query";
 export const ProjectContainer = styled.div`
   width: 85%;
   margin: auto;
+  // NOTE: Why not use flexbox?;
 
   .projectCard {
     margin-top: 300px;

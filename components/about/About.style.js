@@ -20,6 +20,7 @@ export const AboutContainer = styled.div`
     margin-top: 30px;
   }
 
+  // NOTE: YOu should be coding for mobile first (greaterThan).
   ${media.lessThan("991px")`
     .aboutTextContainer {
       width: 70%;
