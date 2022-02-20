@@ -10,7 +10,9 @@ const Projects = () => {
             <div className="projectText">
               <div className="projectSplit">
                 <div className="projectNumbAndCategory">
-                  <h3>{id}/5</h3>
+                  <h3>
+                    {id}/{Data.length}
+                  </h3>
                   <p>{category}</p>
                 </div>
                 <div className="projectTitle">

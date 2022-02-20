@@ -1,4 +1,5 @@
 import { HeaderWrapper } from "./HeaderWrapper.style";
+// NICE!
 import { animateScroll as scroll } from "react-scroll";
 
 const Header = () => {

@@ -30,6 +30,7 @@ const About = () => {
           </p>
         </div>
       </AboutContainer>
+
       <Skills>
         <h3>Skills</h3>
         <div className="skillsContainer">
@@ -47,6 +48,7 @@ const About = () => {
           ))}
         </div>
       </Skills>
+
       <Experience>
         <div className="experienceContainer">
           <h3>Experience</h3>
