@@ -1,34 +1,46 @@
-[
-    {
+[    {
         "id": "1",
+        "year": "Today",
+        "company": "Attensi",
+        "workTitle": "Graphic Designer",
+        "description": "Interaction Design",
+        "link": "https://attensi.com/",
+        "date": "Mar. 2022 - Today"
+    },
+    {
+        "id": "2",
         "year": "Today",
         "company": "Gjensidige Forsikring",
         "workTitle": "Graphic Designer",
         "description": "Marketing and profile",
+        "link": "https://www.gjensidige.no/",
         "date": "Sep. 2020 - Today"
-    },
-    {
-        "id": "2",
-        "year": "2020",
-        "company": "The Innovation Effect",
-        "workTitle": "Graphic Designer",
-        "description": "Shopping net design",
-        "date": "Mar. 2020"
     },
     {
         "id": "3",
         "year": "2020",
-        "company": "Klinikk Capasand",
-        "workTitle": "Web Designer",
-        "description": "Designed and made a website using Webflow",
-        "date": "Jan. 2020 - Mar. 2020"
+        "company": "The Innovation Effect",
+        "workTitle": "Graphic Designer",
+        "description": "Shopping net design",
+        "link": "https://www.theinnovationeffect.com/",
+        "date": "Mar. 2020"
     },
     {
         "id": "4",
+        "year": "2020",
+        "company": "Klinikk Capasand",
+        "workTitle": "Web Designer",
+        "description": "Designed and made a website using Webflow",
+        "link": "https://www.capasand.no/",
+        "date": "Jan. 2020 - Mar. 2020"
+    },
+    {
+        "id": "5",
         "year": "2019",
         "company": "The Innovation Effect",
         "workTitle": "Graphic Designer",
         "description": "Worked in a team of 4 students making a website for NBBL",
+        "link": "https://www.theinnovationeffect.com/",
         "date": "Okt. 2019 - Des. 2019"
     }
 ]

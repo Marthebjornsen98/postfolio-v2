@@ -39,12 +39,14 @@ export const HeaderWrapper = styled.div`
 
     &:hover {
       cursor: pointer;
+      color: #e1affd;
       font-weight: var(--bold);
     }
   }
 
   .isActive {
     font-weight: var(--bold);
+    color: #e1affd;
   }
 
   ${media.lessThan("991px")`

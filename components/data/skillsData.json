@@ -3,12 +3,12 @@
       "id": "1",
       "title": "Design",
       "skills": [
+        "Figma",
         "Indesign",
         "Illustrator",
         "Photoshop",
         "After Effects",
-        "Adobe XD",
-        "Figma"
+        "Adobe XD"
       ]
     },
     {
@@ -19,20 +19,22 @@
         "Github",
         "Photoshop",
         "Terminal",
-        "ABootstrap"
+        "Bootstrap",
+        "Tailwind",
+        "Netlify/Vercel"
       ]
     },
     {
       "id": "3",
       "title": "Language",
       "skills": [
-        "Norwegian",
-        "English",
         "HTML",
         "CSS",
         "SASS",
         "Javascript",
-        "Learning React"
+        "React",
+        "Next.js",
+        "Learning Vue"
       ]
     }
   ]

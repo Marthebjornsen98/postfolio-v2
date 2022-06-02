@@ -7,8 +7,8 @@ export const HeroContainer = styled.div`
 
   .heroContentContainer {
     margin: auto;
-    padding-top: 200px;
-    margin-bottom: 600px;
+    padding-top: 250px;
+    margin-bottom: 500px;
   }
 
   .heroBgImgContainer {

@@ -16,7 +16,11 @@ export default function Home() {
       <Head>
         <title>Bjornsen Design</title>
         <meta name="description" content="Welcome to my portfolio!" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+          crossOrigin
+        />
       </Head>
       <Body>
         <Header />

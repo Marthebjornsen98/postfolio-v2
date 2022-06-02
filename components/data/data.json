@@ -1,42 +1,65 @@
 [
     {
         "id": "1",
+        "title": "Holidaze",
+        "year": "2022",
+        "description": "A modern and intuitive way of booking your favorite hotels in Norway.",
+        "category": "Graphic design, Front-end, Website",
+        "link": "https://github.com/Marthebjornsen98/project-exam",
+        "image": "https://cute-dasik-066857.netlify.app/img/Mockup_Holidaze.jpg"
+    },
+    {
+        "id": "2",
         "title": "Wrist",
         "year": "2021",
         "description": "Reinventing the luxury experience of online shopping with expensive watches.",
         "category": "Graphic design, Front-end, Website",
+        "link": "https://github.com/Marthebjornsen98/semester-project-wrist",
         "image": "https://clever-snyder-541156.netlify.app/img/Wrist_mockup_mac.jpg"
     },
     {
-        "id": "2",
+        "id": "3",
         "title": "Just Another Design Company",
         "year": "2021",
         "description": "An earlier portfolio, i used bright colors to engage the reader and make a statement.",
         "category": "Graphic design, Front-end, Website",
+        "link": "https://github.com/Marthebjornsen98/portfolio",
         "image": "https://clever-snyder-541156.netlify.app/img/JADC_mockup-all-devices.jpg"
     },
     {
-        "id": "3",
+        "id": "4",
         "title": "The Modern Apartment",
         "year": "2021",
         "description": "A modern and minimalistic furniture blog.",
         "category": "Graphic design, Front-end, Website",
+        "link": "https://github.com/Marthebjornsen98/Prosject-exam",
         "image": "https://clever-snyder-541156.netlify.app/img/TMA_mockup_mac.jpg"
     },
     {
-        "id": "4",
+        "id": "5",
         "title": "Still Tasty",
         "year": "2020",
         "description": "Expired food is Still Tasty, how can we reduce food waste by using this app",
         "category": "Graphic design, app",
+        "link": "/",
         "image": "https://clever-snyder-541156.netlify.app/img/Still-Tasty_mockup_1.jpg"
     },
     {
-        "id": "5",
+        "id": "6",
         "title": "Capasand",
         "year": "2020",
         "description": "A website for a clinic, their focus is to tave a healthy lifestyle.",
         "category": "Graphic design, Web design, Website",
+        "link": "https://www.capasand.no/",
         "image": "https://clever-snyder-541156.netlify.app/img/Capasand_mockup_mac.jpg"
+    },
+        {
+        "id": "7",
+        "title": "Next.js test",
+        "year": "2020",
+        "description": "A test website to learn how to use react and next.js.",
+        "category": "Graphic design, Web design, Website",
+        "link": "https://github.com/Marthebjornsen98/ca-marthe-bjornsen-js-frameworks",
+        "image": "https://cute-dasik-066857.netlify.app/img/Mockup_JS-CA.jpg"
     }
 ]

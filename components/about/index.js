@@ -1,6 +1,7 @@
 import { AboutContainer, Skills, Experience } from "./About.style";
 import SkillsData from "../data/skillsData.json";
 import ExperienceData from "../data/experienceData.json";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -47,16 +48,18 @@ const About = () => {
           ))}
         </div>
       </Skills>
-      <Experience>
+      <Experience id="experience">
         <div className="experienceContainer">
           <h3>Experience</h3>
           <div className="experienceWrapper">
             {ExperienceData.map(
-              ({ id, year, company, workTitle, description, date }) => (
+              ({ id, year, company, workTitle, description, date, link }) => (
                 <div className="experienceContent" key={id}>
                   <h2 className="year">{year}</h2>
                   <div className="experienceDetails">
-                    <h3>{company}</h3>
+                    <Link href={link} passHref>
+                      <h3 className="company">{company}</h3>
+                    </Link>
                     <h5 className="workTitle">{workTitle}</h5>
                     <p>{description}</p>
                     <p>{date}</p>

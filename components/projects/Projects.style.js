@@ -9,14 +9,21 @@ export const ProjectContainer = styled.div`
     margin-top: 300px;
   }
 
+  .title:hover {
+    cursor: pointer;
+    color: #e1affd;
+  }
+
   .projectText {
     margin-bottom: 30px;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
   }
 
   .projectSplit {
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
   }
 
@@ -46,7 +53,7 @@ export const ProjectContainer = styled.div`
 
   .projectImg {
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

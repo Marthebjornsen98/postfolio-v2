@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
-        font-size: 6.875rem;
+        font-size: 5rem;
         z-index: 99;
         position: relative;
     }

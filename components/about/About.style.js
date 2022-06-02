@@ -103,6 +103,11 @@ export const Experience = styled.div`
     margin-top: 20px;
   }
 
+  .company:hover {
+    cursor: pointer;
+    color: #e1affd;
+  }
+
   ${media.lessThan("991px")`
     .year {
       font-size: 7rem;
