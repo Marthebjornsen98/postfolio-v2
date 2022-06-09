@@ -6,7 +6,7 @@ export const ProjectContainer = styled.div`
   margin: auto;
 
   .projectCard {
-    margin-top: 300px;
+    margin-top: 200px;
   }
 
   .title:hover {
